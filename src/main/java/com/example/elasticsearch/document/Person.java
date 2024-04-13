@@ -9,7 +9,7 @@ import org.springframework.data.elasticsearch.annotations.FieldType;
 import org.springframework.data.elasticsearch.annotations.Setting;
 
 @Document(indexName = Indices.PERSON_INDEX)
-@Setting(settingPath = "static/es.settings.json")
+@Setting(settingPath = "static/es-settings.json")
 public @Data class Person {
     /**
      * @Id: 這個標記表示這個欄位是物件的唯一識別符，對應到Elasticsearch索引中的文檔ID。在這個程式碼中，id屬性會被映射到Elasticsearch文檔的ID欄位。

@@ -17,3 +17,7 @@ POST /person/_search
 }
 }
 這個範例中使用的是POST請求，搜尋條件透過請求體中的JSON資料來指定。
+
+
+
+http://localhost:9200/vehicle
